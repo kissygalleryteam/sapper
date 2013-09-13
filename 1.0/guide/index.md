@@ -38,4 +38,7 @@ sapper,勤奋的挖掘工，帮您找出页面的可点击入口。 通过该功
 * findNext 查找下一个
 * findPrev   查找上一个
 
+### demo
+
+[http://gallery.kissyui.com/sapper/1.0/demo/index.html](http://gallery.kissyui.com/sapper/1.0/demo/index.html)
 

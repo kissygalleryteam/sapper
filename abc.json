@@ -1,7 +1,7 @@
 {
     "name": "sapper",
     "version": "1.0",
-    "desc": "查找页面入口。主要功能和Chrome的搜索功能相似，但给用户查找的只是a标签中的内容，以方便用户快速找到链接并点击",
+    "desc": "勤奋的挖掘工，帮您快速查找页面入口",
     "cover": "http://gtms04.alicdn.com/tps/i4/T16NKLFgFeXXbBIAI9-125-50.png",
     "tag":"",
     "author": {
