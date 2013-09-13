@@ -9,6 +9,7 @@
     <file path="/index.md" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1378972578390" ignored="false" />
     <file path="/index.js" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1378971838134" ignored="false" />
     <file path="/index.css" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1378971974433" ignored="false" />
+    <file path="$PROJECT_DIR$/1.0/build/index-min.js" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379044095298" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -395,9 +396,7 @@
     <entry file="file://$PROJECT_DIR$/1.0/build/index-min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="9" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0477707">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
