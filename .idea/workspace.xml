@@ -5,9 +5,9 @@
     <ignored path="sapper.iws" />
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1378971463102" ignored="false" />
-    <file path="/index.html" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379043004607" ignored="false" />
+    <file path="/index.html" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379232898735" ignored="false" />
     <file path="/index.md" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1378972578390" ignored="false" />
-    <file path="/index.js" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1378971838134" ignored="false" />
+    <file path="/index.js" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379232876017" ignored="false" />
     <file path="/index.css" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1378971974433" ignored="false" />
     <file path="$PROJECT_DIR$/1.0/build/index-min.js" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379044095298" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -41,7 +41,7 @@
       <file leaf-file-name="index.html" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/1.0/demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="7" selection-start="534" selection-end="534" vertical-scroll-proportion="0.38897893">
+            <state line="15" column="21" selection-start="437" selection-end="437" vertical-scroll-proportion="0.36466774">
               <folding />
             </state>
           </provider>
@@ -50,7 +50,7 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.0/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="430" column="104" selection-start="15293" selection-end="15293" vertical-scroll-proportion="0.0">
+            <state line="464" column="25" selection-start="16438" selection-end="16438" vertical-scroll-proportion="0.0">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -100,8 +100,8 @@
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/abc.json" />
         <option value="$PROJECT_DIR$/1.0/guide/index.md" />
-        <option value="$PROJECT_DIR$/1.0/index.js" />
         <option value="$PROJECT_DIR$/1.0/index.css" />
+        <option value="$PROJECT_DIR$/1.0/index.js" />
         <option value="$PROJECT_DIR$/1.0/demo/index.html" />
       </list>
     </option>
@@ -409,7 +409,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1.0/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="430" column="104" selection-start="15293" selection-end="15293" vertical-scroll-proportion="0.0">
+        <state line="464" column="25" selection-start="16438" selection-end="16438" vertical-scroll-proportion="0.0">
           <folding>
             <element signature="n#!!doc" expanded="true" />
           </folding>
@@ -418,7 +418,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1.0/demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="7" selection-start="534" selection-end="534" vertical-scroll-proportion="0.38897893">
+        <state line="15" column="21" selection-start="437" selection-end="437" vertical-scroll-proportion="0.36466774">
           <folding />
         </state>
       </provider>
