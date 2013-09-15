@@ -468,9 +468,7 @@ KISSY.add('gallery/sapper/1.0/index',function (S, Node, Base, Anim) {
 
     }, {ATTRS: /** @lends Sapper*/{
         "doms": {
-            "value": {
-
-            }
+            "value": null
         },
         "result": {
             "value": null
