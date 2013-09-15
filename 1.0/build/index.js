@@ -7,7 +7,7 @@ gallery/sapper/1.0/index
 /*
  combined files :
 
- gallery/sapper/1.0/index
+ gallery/Sapper/1.0/index
 
  */
 /**
@@ -15,24 +15,24 @@ gallery/sapper/1.0/index
  * @author kissy-team<kissy-team@gmail.com>
  * @module found
  **/
-KISSY.add('gallery/sapper/1.0/index', function (S, Node, Base, Anim) {
+KISSY.add('gallery/sapper/1.0/index',function (S, Node, Base, Anim) {
     var EMPTY = '';
     var $ = Node.all;
 
     /**
      *
-     * @class sapper
+     * @class Sapper
      * @constructor
      * @extends Base
      */
-    function sapper(comConfig) {
+    function Sapper(comConfig) {
         var self = this;
         //调用父类构造函数
-        sapper.superclass.constructor.call(self, comConfig);
+        Sapper.superclass.constructor.call(self, comConfig);
         self.init();
     }
 
-    S.extend(sapper, Base, /** @lends sapper.prototype*/{
+    S.extend(Sapper, Base, /** @lends Sapper.prototype*/{
         init: function () {
             var self = this;
             self._createUI();
@@ -42,55 +42,55 @@ KISSY.add('gallery/sapper/1.0/index', function (S, Node, Base, Anim) {
         _createUI: function () {
             var self = this;
             var node = S.DOM.create('<div >' +
-                '<div class="sapper-icowrap J_FindLinks_Ico" data-action="search" ><span class="sapper-ico"  data-action="search">&nbsp;</span></div>' +
-                '<span class="J_FindLinks_Click sapper-des" data-action="search">我要找入口</span>' +
-                '<div class="J_FindLinks_Search sapper-noresult sapper-search  hidden" >' +
-                '<input class="J_FindLinks_Input sapper-input" id="sapper-input" placeholder="在首页找入口"/>' +
-                '<label class="sapper-numbers" for="sapper-input">' +
-                '第<span class="J_FindLinks_Index">0</span>条，共<span class="J_FindLinks_Total">0</span>条' +
+                '<div class="Sapper-icowrap J_Sapper_Ico" data-action="search" ><span class="Sapper-ico"  data-action="search">&nbsp;</span></div>' +
+                '<span class="J_Sapper_Click Sapper-des" data-action="search">我要找入口</span>' +
+                '<div class="J_Sapper_Search Sapper-noresult Sapper-search  hidden" >' +
+                '<input class="J_Sapper_Input Sapper-input" id="Sapper-input" placeholder="在首页找入口"/>' +
+                '<label class="Sapper-numbers" for="Sapper-input">' +
+                '第<span class="J_Sapper_Index">0</span>条，共<span class="J_Sapper_Total">0</span>条' +
                 '</label>' +
-                '<a href="jasvasript:void(0);"  class="sapper-down J_FindLinks_Down J_FindLinks_Click" data-action="down">&nbsp;</a>' +
-                '<a href="jasvasript:void(0);" class="sapper-up  J_FindLinks_Up J_FindLinks_Click" data-action="up">&nbsp;</a>' +
-                '<a href="jasvasript:void(0);"  class="sapper-close J_FindLinks_Close  J_FindLinks_Click" data-action="close">&nbsp;</a>' +
+                '<a href="jasvasript:void(0);"  class="Sapper-down J_Sapper_Down J_Sapper_Click" data-action="down">&nbsp;</a>' +
+                '<a href="jasvasript:void(0);" class="Sapper-up  J_Sapper_Up J_Sapper_Click" data-action="up">&nbsp;</a>' +
+                '<a href="jasvasript:void(0);"  class="Sapper-close J_Sapper_Close  J_Sapper_Click" data-action="close">&nbsp;</a>' +
                 '</div>' +
                 '</div>', {
-                href: '#',
-                id: S.guid('J_FindLinks_'),
-                title: '通过这个功能，您不仅能快速找到需要的链接，还能找到被“深藏”的入口哦~',
-                "class": 'sapper-container'
+                "href": '#',
+                "id": S.guid('J_Sapper_'),
+                "title": '通过这个功能，您不仅能快速找到需要的链接，还能找到被“深藏”的入口哦~',
+                "class": 'Sapper-container'
             });
             var focusIco = S.DOM.create('<div></div>', {
                 href: '#',
                 title: '找到了',
-                id: S.guid('J_FindLinks_'),
-                "class": 'sapper-ico'
+                id: S.guid('J_Sapper_'),
+                "class": 'Sapper-ico'
             });
             var body = S.one('body');
             body.append(node);
             body.append(focusIco);
             var container = S.one(node);
             container.css('top', self.get('top'));
-            var search = container.one('.J_FindLinks_Search');
-            var click = container.one('.J_FindLinks_Click');
-            var hover = container.one('.J_FindLinks_Hover');
-            var input = container.one('.J_FindLinks_Input');
-            var ico = container.one('.J_FindLinks_Ico');
-            var index = container.one('.J_FindLinks_Index');
-            var total = container.one('.J_FindLinks_Total');
-            var up = container.one('.J_FindLinks_Up');
-            var down = container.one('.J_FindLinks_Down');
+            var search = container.one('.J_Sapper_Search');
+            var click = container.one('.J_Sapper_Click');
+            var hover = container.one('.J_Sapper_Hover');
+            var input = container.one('.J_Sapper_Input');
+            var ico = container.one('.J_Sapper_Ico');
+            var index = container.one('.J_Sapper_Index');
+            var total = container.one('.J_Sapper_Total');
+            var up = container.one('.J_Sapper_Up');
+            var down = container.one('.J_Sapper_Down');
             self.set('doms', {
-                container: container,
-                search: search,
-                click: click,
-                hover: hover,
-                input: input,
-                ico: ico,
-                focusIco: S.one(focusIco),
-                total: total,
-                index: index,
-                up: up,
-                down: down
+                "container": container,
+                "search": search,
+                "click": click,
+                "hover": hover,
+                "input": input,
+                "ico": ico,
+                "focusIco": S.one(focusIco),
+                "total": total,
+                "index": index,
+                "up": up,
+                "down": down
             });
         },
 
@@ -98,10 +98,10 @@ KISSY.add('gallery/sapper/1.0/index', function (S, Node, Base, Anim) {
             var self = this;
             var doms = self.get('doms');
             var container = doms.container;
-            container.delegate('mouseover', '.J_FindLinks_Ico', self._handleIcoHover, self);
-            container.delegate('click', '.J_FindLinks_Click', self._handleClick, self);
-            container.delegate('keyup', '.J_FindLinks_Input', self._handleKeyup, self);
-            container.delegate('keydown', '.J_FindLinks_Input', self._handleKeydown, self);
+            container.delegate('mouseover', '.J_Sapper_Ico', self._handleIcoHover, self);
+            container.delegate('click', '.J_Sapper_Click', self._handleClick, self);
+            container.delegate('keyup', '.J_Sapper_Input', self._handleKeyup, self);
+            container.delegate('keydown', '.J_Sapper_Input', self._handleKeydown, self);
             if (S.UA.ie == 6) {
                 var win = S.one(window);
                 win.on('scroll', function (e) {
@@ -138,8 +138,8 @@ KISSY.add('gallery/sapper/1.0/index', function (S, Node, Base, Anim) {
             var self = this;
             self._toggleClick(true);
             var container = self.get('doms.container');
-            container.undelegate('mouseover', '.J_FindLinks_Ico', self._handleIcoHover, self);
-            container.delegate('click', '.J_FindLinks_Ico', self._handleClick, self);
+            container.undelegate('mouseover', '.J_Sapper_Ico', self._handleIcoHover, self);
+            container.delegate('click', '.J_Sapper_Ico', self._handleClick, self);
         },
         _handleClick: function (e) {
             e.halt();
@@ -222,12 +222,12 @@ KISSY.add('gallery/sapper/1.0/index', function (S, Node, Base, Anim) {
             }
             if (result) {
                 var node = result.item(index);
-                if (node ) {
+                if (node) {
                     var href = node.attr('href');
                     var isLink = !href.match(/javascript/gi);
-                    if(isLink){
+                    if (isLink) {
                         self._showFocusResult(node);
-                     }else{
+                    } else {
                         self._filterShowResult();
                     }
 
@@ -237,15 +237,15 @@ KISSY.add('gallery/sapper/1.0/index', function (S, Node, Base, Anim) {
                 }
             }
         },
-        _filterShowResult:function(){
-           var self = this;
-           var index = self.get('index');
-           var prevIndex = self.get('prevIndex');
-           if(prevIndex<=index){
-               self.findNext();
-           }else{
-               self.findPrev();
-           }
+        _filterShowResult: function () {
+            var self = this;
+            var index = self.get('index');
+            var prevIndex = self.get('prevIndex');
+            if (prevIndex <= index) {
+                self.findNext();
+            } else {
+                self.findPrev();
+            }
 
         },
         findPrev: function () {
@@ -270,14 +270,14 @@ KISSY.add('gallery/sapper/1.0/index', function (S, Node, Base, Anim) {
             var self = this;
             var result = self.get('result');
             if (result && result.addClass) {
-                result.addClass('sapper-href');
+                result.addClass('Sapper-href');
             }
         },
         _hideAllResults: function () {
             var self = this;
             var result = self.get('result');
             if (result && result.addClass) {
-                result.removeClass('sapper-href');
+                result.removeClass('Sapper-href');
             }
             self._hideIco();
             self._unFocusNode();
@@ -304,73 +304,92 @@ KISSY.add('gallery/sapper/1.0/index', function (S, Node, Base, Anim) {
             var total = self.get('total');
             var index = self.get('index');
             if (total === 0) {
-                search.addClass('sapper-noresult');
+                search.addClass('Sapper-noresult');
             } else {
-                search.removeClass('sapper-noresult');
+                search.removeClass('Sapper-noresult');
             }
             if (index === 0) {
-                up.addClass('sapper-noupresult');
+                up.addClass('Sapper-noupresult');
 
             } else {
-                up.removeClass('sapper-noupresult');
+                up.removeClass('Sapper-noupresult');
             }
             if (index === total - 1) {
-                down.addClass('sapper-nodownresult');
+                down.addClass('Sapper-nodownresult');
 
             } else {
-                down.removeClass('sapper-nodownresult');
+                down.removeClass('Sapper-nodownresult');
             }
         },
         _scrollTo: function (position) {
-                window.scrollTo(0, position.top - 30);
+            var self = this;
+            window.scrollTo(0, position.top - 30);
         },
         _focusNode: function (node) {
             var self = this;
 
             var fireFn = self.get('fireFn');
-            if(fireFn){
-                try{
+            if (fireFn) {
+                try {
                     fireFn(node);
-                }catch(e){
+                } catch (e) {
                     S.log('执行触发事件失败');
                 }
             }
             var position = self._findPosition(node);
-            self._scrollTo(position);
-            self._showIco(position);
-            node.addClass('sapper-unvisibility');
-            node.addClass('sapper-href-now');
+            node.addClass('Sapper-unvisibility');
+            node.addClass('Sapper-href-now');
             self.set('focusNode', node);
             var cloneNode = node.clone(true);
-            cloneNode.css({
-                position: 'absolute',
-                left: position.left,
-                top: position.top,
-                display: 'block',
-                fontSize: node.css('fontSize'),
-                lineHeight: node.css('lineHeight'),
-                padding: node.css('padding'),
-                minHeight: node.css('height') == '0px' ? 'auto' : node.css('height'),
-                minWidth: node.css('width') == '0px' ? 'auto' : node.css('width'),
-                textAlign: node.css('textAlign')
+            var lineHeight = node.css('lineHeight');
+            var top = position.top;
+            var left = position.left;
+            var height = node.css('height');
+            var width = node.css('width');
+            var ttop = (parseInt(lineHeight) - parseInt(height)) / 2;
+            top = (ttop > 0 && top - ttop > 0) ? top - ttop : top;
+
+            self._scrollTo({
+                "left":left,
+                "top":top
             });
-            cloneNode.addClass('sapper-href-focus');
+
+            self._showIco({
+                "left": left,
+                "top": top
+            });
+            var styles = {
+                "position": 'absolute',
+                "left": left,
+                "top": top,
+                "fontSize": node.css('fontSize'),
+                "padding": node.css('padding'),
+                "minHeight": height == '0px' ? 'auto' : height,
+                "minWidth": width == '0px' ? 'auto' : width,
+                "textAlign": node.css('textAlign'),
+                "lineHeight": lineHeight
+            }
+            if (S.UA.ie === 6) {
+                S.mix(styles, {
+                    "height": height == '0px' ? 'auto' : height,
+                    "width": width == '0px' ? 'auto' : width
+                });
+            }
+            cloneNode.css(styles);
+            cloneNode.addClass('Sapper-href-focus');
             cloneNode.appendTo('body');
             cloneNode.show();
             self.set('cloneNode', cloneNode);
         },
-        _findPosition:function(node){
-           var self = this;
+        _findPosition: function (node) {
+            var self = this;
             var position = node.offset();
-            S.log(position)
             var left = position.left;
-            var  top = position.top;
-            if(left === 0 || top ===0){
-                 var parent = node.parent();
-                if(parent.prop('tagName') == 'BODY'){
-                    position = position;
-                }else{
-                    position = self._findPosition(parent);
+            var top = position.top;
+            if (left <= 0) {
+                var parentNode = node.parent();
+                if (parentNode && parentNode.prop('tagName') && parentNode.prop('tagName') !== 'BODY') {
+                    position = self._findPosition(parentNode);
                 }
             }
             return position;
@@ -383,9 +402,9 @@ KISSY.add('gallery/sapper/1.0/index', function (S, Node, Base, Anim) {
             top = top < 0 ? position.top : top;
             left = top < 0 ? position.left : left - 10;
             focusIco.css({
-                left: left,
-                top: top,
-                display: 'block'
+                "left": left,
+                "top": top,
+                "display": 'block'
             });
         },
         _hideIco: function () {
@@ -401,8 +420,8 @@ KISSY.add('gallery/sapper/1.0/index', function (S, Node, Base, Anim) {
                 cloneNode.remove();
             }
             if (focusNode) {
-                focusNode.removeClass('sapper-href-now');
-                focusNode.removeClass('sapper-unvisibility');
+                focusNode.removeClass('Sapper-href-now');
+                focusNode.removeClass('Sapper-unvisibility');
             }
         },
         _handleSearch: function () {
@@ -418,7 +437,7 @@ KISSY.add('gallery/sapper/1.0/index', function (S, Node, Base, Anim) {
 
             function show() {
                 click.fadeIn(0.3);
-                container.on('mouseleave',function(){
+                container.on('mouseleave', function () {
                     self._toggleClick(false);
                 });
             }
@@ -426,7 +445,7 @@ KISSY.add('gallery/sapper/1.0/index', function (S, Node, Base, Anim) {
             function hide() {
                 click.fadeOut(0.5);
                 container.detach('mouseleave');
-                container.delegate('mouseover', '.J_FindLinks_Ico', self._handleIcoHover, self);
+                container.delegate('mouseover', '.J_Sapper_Ico', self._handleIcoHover, self);
             }
 
             isShow ? show() : hide();
@@ -441,50 +460,47 @@ KISSY.add('gallery/sapper/1.0/index', function (S, Node, Base, Anim) {
             } else {
                 search.fadeOut(0.5);
                 S.later(function () {
-                    container.delegate('mouseover', '.J_FindLinks_Ico', self._handleIcoHover, self);
-                    container.undelegate('click', '.J_FindLinks_Ico', self._handleClick, self);
+                    container.delegate('mouseover', '.J_Sapper_Ico', self._handleIcoHover, self);
+                    container.undelegate('click', '.J_Sapper_Ico', self._handleClick, self);
                 }, 1000);
-
             }
         }
 
-    }, {ATTRS: /** @lends sapper*/{
-        doms: {
-            value: {
-
-            }
+    }, {ATTRS: /** @lends Sapper*/{
+        "doms": {
+            "value": null
         },
-        result: {
-            value: null
+        "result": {
+            "value": null
         },
-        index: {
-            value: 0,
-            setter: function (index) {
+        "index": {
+            "value": 0,
+            "setter": function (index) {
                 if (index < 0)index = 0;
                 return index;
             }
         },
-        prevIndex: {
-            value: 0
+        "prevIndex": {
+            "value": 0
         },
-        total: {
-            value: 0
+        "total": {
+            "value": 0
         },
-        cloneNode: {
-            value: null
+        "cloneNode": {
+            "value": null
         },
-        focusNode: {
-            value: null
+        "focusNode": {
+            "value": null
         },
-        top: {
-            value: 278
+        "top": {
+            "value": 278
         },
-        fireFn:{
-            value:null
+        "fireFn": {
+            "value": null
         }
 
     }});
-    return sapper;
+    return Sapper;
 }, {requires: ['node', 'base', 'anim', 'event', 'sizzle', 'ua', './index.css']});
 
 
