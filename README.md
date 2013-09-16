@@ -1,15 +1,13 @@
 ## sapper
 
-* 版本：1.0
-* 教程：[http://gallery.kissyui.com/sapper/1.0/guide/index.html](http://gallery.kissyui.com/sapper/1.0/guide/index.html)
-* demo：[http://gallery.kissyui.com/sapper/1.0/demo/index.html](http://gallery.kissyui.com/sapper/1.0/demo/index.html)
+* 版本：2.0
+* 教程：[http://gallery.kissyui.com/sapper/2.0/guide/index.html](http://gallery.kissyui.com/sapper/2.0/guide/index.html)
+* demo：[http://gallery.kissyui.com/sapper/2.0/demo/index.html](http://gallery.kissyui.com/sapper/2.0/demo/index.html)
 
 ## changelog
 
-### V1.0
+### V2.0
 
-    * 标记所有匹配到的内容
-    * 高亮显示当前内容
-    * 遇到隐藏的内容，会在最近的可视父元素位置显示
-    * 自动跳过href属性为javasript的标签
+    [!]将组建从hover效果中抽离出来，并增加了显示/隐藏搜索框、重置和定位等方法。参数上,允许用户配置回调函数、定位位置、搜索范围以及过滤函数。
+
 
