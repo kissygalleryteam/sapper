@@ -462,9 +462,7 @@ KISSY.add(function (S, Node, Base, Anim) {
 
     }, {ATTRS: /** @lends Sapper*/{
         "doms": {
-            "value": {
-
-            }
+            "value": null
         },
         "result": {
             "value": null
