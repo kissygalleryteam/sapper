@@ -207,7 +207,6 @@ KISSY.add('gallery/sapper/2.0/index',function (S, Node, Base, Anim) {
             var self = this;
             var success = false;
             var result = [];
-            console.time('过滤节点');
             nodeList.each(function(node){
                 var href = node.attr('href');
                 var isLink = !href.match(/javascript/gi);
@@ -215,7 +214,6 @@ KISSY.add('gallery/sapper/2.0/index',function (S, Node, Base, Anim) {
                     result.push(node);
                 }
             });
-            console.timeEnd('过滤节点');
             return result;
         },
         _findLink: function () {
