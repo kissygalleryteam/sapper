@@ -6,7 +6,7 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1378971463102" ignored="false" />
     <file path="/index.html" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379236154737" ignored="false" />
-    <file path="/index.md" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1378972578390" ignored="false" />
+    <file path="/index.md" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379295160705" ignored="false" />
     <file path="/index.js" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379236927821" ignored="false" />
     <file path="/index.css" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1378971974433" ignored="false" />
     <file path="$PROJECT_DIR$/1.0/build/index-min.js" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379044095298" ignored="false" />
@@ -30,16 +30,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../findlinks/1.0/build/index.js">
+      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/2.0/index.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="444" column="13" selection-start="15027" selection-end="15027" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1379071101000" expanded="false" signature="1343:1364" placeholder="..." />
-                <marker date="1379071101000" expanded="false" signature="1476:1497" placeholder="..." />
-                <marker date="1379071101000" expanded="false" signature="1606:1627" placeholder="..." />
-              </folding>
+            <state line="3" column="50" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -47,30 +42,25 @@
       <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.0/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="193" column="32" selection-start="6582" selection-end="6675" vertical-scroll-proportion="-17.307692">
-              <folding>
-                <element signature="n#!!doc" expanded="true" />
-                <marker date="1379237052000" expanded="true" signature="1268:1289" placeholder="..." />
-                <marker date="1379237052000" expanded="true" signature="1395:1416" placeholder="..." />
-                <marker date="1379237052000" expanded="true" signature="1519:1540" placeholder="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/2.0/index.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="3" column="50" selection-start="82" selection-end="82" vertical-scroll-proportion="-0.8181818">
+            <state line="483" column="41" selection-start="15806" selection-end="15825" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="77" selection-start="358" selection-end="358" vertical-scroll-proportion="0.23400936">
+            <state line="13" column="44" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/2.0/guide/index.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="22" column="72" selection-start="455" selection-end="455" vertical-scroll-proportion="0.5148206">
               <folding />
             </state>
           </provider>
@@ -79,12 +69,8 @@
       <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.0/demo/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="36" selection-start="1474" selection-end="1474" vertical-scroll-proportion="17.24">
-              <folding>
-                <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-              </folding>
+            <state line="50" column="36" selection-start="1474" selection-end="1474" vertical-scroll-proportion="-0.625">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -110,6 +96,7 @@
         <option value="$PROJECT_DIR$/2.0/demo/index.html" />
         <option value="$PROJECT_DIR$/2.0/index.js" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/2.0/guide/index.md" />
       </list>
     </option>
   </component>
@@ -190,6 +177,24 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="guide" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="2.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="demo" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -203,8 +208,8 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="options.lastSelected" value="Settings.JavaScript.Linters.JSLint" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="options.searchVisible" value="true" />
+    <property name="options.splitter.details.proportions" value="0.2" />
   </component>
   <component name="RunManager">
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
@@ -332,30 +337,17 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1.0/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="46" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.0/guide/index.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="5" column="46" selection-start="108" selection-end="108" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../findlinks/1.0/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="28" column="12" selection-start="585" selection-end="585" vertical-scroll-proportion="0.65522623">
-          <folding />
-        </state>
+        <state line="28" column="12" selection-start="585" selection-end="585" vertical-scroll-proportion="0.65522623" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/../findlinks/1.0/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="20" selection-start="170" selection-end="170" vertical-scroll-proportion="0.16719745">
-          <folding />
-        </state>
+        <state line="7" column="20" selection-start="170" selection-end="170" vertical-scroll-proportion="0.16719745" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/abc.json">
@@ -367,9 +359,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Gruntfile.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
@@ -381,63 +371,52 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/1.0/demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="99" column="13" selection-start="2883" selection-end="2883" vertical-scroll-proportion="0.09076175">
+        <state line="99" column="13" selection-start="2883" selection-end="2883" vertical-scroll-proportion="0.09076175" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../findlinks/1.0/build/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="444" column="13" selection-start="15027" selection-end="15027" vertical-scroll-proportion="0.15756631">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/2.0/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="50" column="36" selection-start="1474" selection-end="1474" vertical-scroll-proportion="-0.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="44" selection-start="361" selection-end="361" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2.0/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="50" selection-start="82" selection-end="82" vertical-scroll-proportion="-0.8181818">
+        <state line="3" column="50" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../findlinks/1.0/build/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="444" column="13" selection-start="15027" selection-end="15027" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1379071101000" expanded="false" signature="1343:1364" placeholder="..." />
-            <marker date="1379071101000" expanded="false" signature="1476:1497" placeholder="..." />
-            <marker date="1379071101000" expanded="false" signature="1606:1627" placeholder="..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/2.0/demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="36" selection-start="1474" selection-end="1474" vertical-scroll-proportion="17.24">
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/2.0/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="193" column="32" selection-start="6582" selection-end="6675" vertical-scroll-proportion="-17.307692">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-            <marker date="1379237052000" expanded="true" signature="1268:1289" placeholder="..." />
-            <marker date="1379237052000" expanded="true" signature="1395:1416" placeholder="..." />
-            <marker date="1379237052000" expanded="true" signature="1519:1540" placeholder="..." />
-          </folding>
+        <state line="483" column="41" selection-start="15806" selection-end="15825" vertical-scroll-proportion="0.0">
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
+    <entry file="file://$PROJECT_DIR$/2.0/guide/index.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="77" selection-start="358" selection-end="358" vertical-scroll-proportion="0.23400936">
+        <state line="22" column="72" selection-start="455" selection-end="455" vertical-scroll-proportion="0.5148206">
           <folding />
         </state>
       </provider>
