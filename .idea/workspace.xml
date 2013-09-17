@@ -87,28 +87,28 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="package.json" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="package.json" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/node_modules/grunt-contrib-cssmin/package.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="49" column="32" selection-start="5254" selection-end="5254" vertical-scroll-proportion="0.4570637">
+            <state line="49" column="32" selection-start="5254" selection-end="5254" vertical-scroll-proportion="-6.875">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="abc.json" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="index.md" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/1.0/guide/index.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="8" column="25" selection-start="7" selection-end="158" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="abc.json" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/abc.json">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="17" selection-start="226" selection-end="226" vertical-scroll-proportion="-5.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/1.1/demo/index.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="130" column="43" selection-start="3804" selection-end="3804" vertical-scroll-proportion="-15.708333">
+            <state line="4" column="76" selection-start="155" selection-end="155" vertical-scroll-proportion="0.16042781">
               <folding />
             </state>
           </provider>
@@ -140,7 +140,6 @@
       <list>
         <option value="$PROJECT_DIR$/1.0/build/index-min.css" />
         <option value="$PROJECT_DIR$/1.0/build/index-min.js" />
-        <option value="$PROJECT_DIR$/1.0/guide/index.md" />
         <option value="$PROJECT_DIR$/1.0/index.css" />
         <option value="$PROJECT_DIR$/1.0/index.js" />
         <option value="$PROJECT_DIR$/1.0/demo/index.html" />
@@ -148,11 +147,12 @@
         <option value="$PROJECT_DIR$/2.0/demo/index.html" />
         <option value="$PROJECT_DIR$/2.0/index.js" />
         <option value="$PROJECT_DIR$/2.0/guide/index.md" />
-        <option value="$PROJECT_DIR$/abc.json" />
         <option value="$PROJECT_DIR$/1.1/demo/index.html" />
         <option value="$PROJECT_DIR$/1.1/index.js" />
         <option value="$PROJECT_DIR$/1.1/guide/index.md" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/1.0/guide/index.md" />
+        <option value="$PROJECT_DIR$/abc.json" />
       </list>
     </option>
   </component>
@@ -203,6 +203,38 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="sapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.0" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guide" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -327,11 +359,6 @@
     <breakpoint-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/../findlinks/1.0/build/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="444" column="13" selection-start="15027" selection-end="15027" vertical-scroll-proportion="0.15756631" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.1/index.css">
       <provider selected="true" editor-type-id="text-editor">
         <state line="3" column="16" selection-start="82" selection-end="82" vertical-scroll-proportion="0.0">
@@ -374,13 +401,6 @@
     <entry file="file://$PROJECT_DIR$/1.1/demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="130" column="43" selection-start="3804" selection-end="3804" vertical-scroll-proportion="-15.708333">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/abc.json">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="17" selection-start="226" selection-end="226" vertical-scroll-proportion="-5.0">
           <folding />
         </state>
       </provider>
@@ -441,7 +461,21 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/node_modules/grunt-contrib-cssmin/package.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="49" column="32" selection-start="5254" selection-end="5254" vertical-scroll-proportion="0.4570637">
+        <state line="49" column="32" selection-start="5254" selection-end="5254" vertical-scroll-proportion="-6.875">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.0/guide/index.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="25" selection-start="7" selection-end="158" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/abc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="76" selection-start="155" selection-end="155" vertical-scroll-proportion="0.16042781">
           <folding />
         </state>
       </provider>
