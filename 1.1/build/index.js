@@ -1,7 +1,7 @@
 /*
 combined files : 
 
-gallery/sapper/2.0/index
+gallery/sapper/1.1/index
 
 */
 /*
@@ -13,7 +13,7 @@ gallery/sapper/2.0/index
 /*
  combined files :
 
- gallery/sapper/1.0/index
+ gallery/sapper/1.1/index
 
  */
 /**
@@ -21,7 +21,7 @@ gallery/sapper/2.0/index
  * @author kissy-team<kissy-team@gmail.com>
  * @module found
  **/
-KISSY.add('gallery/sapper/2.0/index',function (S, Node, Base, Anim) {
+KISSY.add('gallery/sapper/1.1/index',function (S, Node, Base, Anim) {
     var EMPTY = '';
     var $ = Node.all;
 
