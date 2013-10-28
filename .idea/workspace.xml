@@ -36,7 +36,7 @@
       <file leaf-file-name="README.md" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="12" column="26" selection-start="285" selection-end="406" vertical-scroll-proportion="0.2795031">
+            <state line="12" column="25" selection-start="405" selection-end="405" vertical-scroll-proportion="0.2795031">
               <folding />
             </state>
           </provider>
@@ -348,9 +348,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding>
-            <marker date="1379386858000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1379386858000" expanded="false" signature="-1:-1" placeholder="..." />
-            <marker date="1379386858000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1382947633000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1382947633000" expanded="false" signature="-1:-1" placeholder="..." />
+            <marker date="1382947633000" expanded="false" signature="-1:-1" placeholder="..." />
           </folding>
         </state>
       </provider>
@@ -431,7 +431,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="12" column="26" selection-start="285" selection-end="406" vertical-scroll-proportion="0.2795031">
+        <state line="12" column="25" selection-start="405" selection-end="405" vertical-scroll-proportion="0.2795031">
           <folding />
         </state>
       </provider>
