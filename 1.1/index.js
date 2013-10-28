@@ -158,6 +158,9 @@ KISSY.add(function (S, Node, Base, Anim) {
             if (keyCode == 38) {
                 self.findPrev();
             }
+            if(keyCode==27) {
+                self.hide();
+            }
         },
         search: function (text) {
             var self = this;
@@ -343,11 +346,16 @@ KISSY.add(function (S, Node, Base, Anim) {
             var width = node.css('width');
             var ttop = (parseInt(lineHeight) - parseInt(height)) / 2;
             top = (ttop > 0 && top - ttop > 0) ? top - ttop : top;
+            var  viewportHeight = S.DOM.viewportHeight();
+            var scrollTop = S.DOM.scrollTop(window);
+            if(top > viewportHeight+scrollTop || top<scrollTop){
 
-            self._scrollTo({
-                "left": left,
-                "top": top
-            });
+                self._scrollTo({
+                    "left": left,
+                    "top": top
+                });
+            };
+
 
             self._showIco({
                 "left": left,
