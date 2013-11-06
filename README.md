@@ -1,16 +1,14 @@
 ## sapper
 
-* 版本：1.1
-* 教程：[http://gallery.kissyui.com/sapper/1.1/guide/index.html](http://gallery.kissyui.com/sapper/1.1/guide/index.html)
-* demo：[http://gallery.kissyui.com/sapper/1.1/demo/index.html](http://gallery.kissyui.com/sapper/1.1/demo/index.html)
+* 版本：1.2
+* 教程：[http://gallery.kissyui.com/sapper/1.2/guide/index.html](http://gallery.kissyui.com/sapper/1.2/guide/index.html)
+* demo：[http://gallery.kissyui.com/sapper/1.2/demo/index.html](http://gallery.kissyui.com/sapper/1.2/demo/index.html)
 
 ## changelog
 
-### V1.1
+### V1.2
 
-    [!]将组建从hover效果中抽离出来，并增加了显示/隐藏搜索框、重置和定位等方法。参数上,允许用户配置回调函数、定位位置、搜索范围以及过滤函数；
-    [!]添加退出键关闭搜索框事件；
-    [!]优化显示动画：在可视范围内的，不滚动。
+    [!]升级到KISSY1.4.0。
 
 ## 综述
 
@@ -20,7 +18,7 @@ sapper是勤奋的挖掘工，帮您快速查找页面入口。
 
 ### 初始化组件
 
-    S.use('gallery/sapper/1.1/index', function (S, Sapper) {
+    S.use('gallery/sapper/1.2/index', function (S, Sapper) {
          var sapper = new Sapper({
          position:{
              left:10,
@@ -49,7 +47,7 @@ sapper是勤奋的挖掘工，帮您快速查找页面入口。
 <td>scope</td>
 <td>KISSY selector</td>
 <td>查找范围</td>
-<td>'body'</td>
+<td>'body a'</td>
 </tr>
 <tr>
 <td>triggerSel</td>

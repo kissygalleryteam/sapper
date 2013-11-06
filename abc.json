@@ -1,12 +1,12 @@
 {
     "name": "sapper",
-    "version": "1.1",
+    "version": "1.2",
     "desc": "勤奋的挖掘工，帮您快速查找页面入口",
     "cover": "http://gtms04.alicdn.com/tps/i4/T1YeCWFoxdXXX0Y_ZE-434-237.png",
-    "tag":"",
+    "tag":"链接查找",
     "author": {
         "name": "迟伤",
-        "email": "chishang.lcw@taobao.com",
+        "email": "chishang.lcw@alibaba-inc.com",
         "page": "http://chishang.github.io/"
     },
     "type": "kissy-gallery",
