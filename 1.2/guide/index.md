@@ -35,7 +35,7 @@ sapper是勤奋的挖掘工，帮您快速查找页面入口。
 <td>scope</td>
 <td>KISSY selector</td>
 <td>查找范围</td>
-<td>'body'</td>
+<td>'body a'</td>
 </tr>
 <tr>
 <td>triggerSel</td>

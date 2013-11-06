@@ -6,15 +6,16 @@
     <ignored path=".idea/workspace.xml" />
     <file path="/a.dummy" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1383706232009" ignored="false" />
     <file path="/index.html" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379383580815" ignored="false" />
-    <file path="/index.md" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379295160705" ignored="false" />
+    <file path="/index.md" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1383729732060" ignored="false" />
     <file path="/index.js" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1383729156562" ignored="false" />
     <file path="/index.css" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1378971974433" ignored="false" />
     <file path="$PROJECT_DIR$/1.0/build/index-min.js" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379044095298" ignored="false" />
-    <file path="/README.md" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1383706314994" ignored="false" />
+    <file path="/README.md" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1383729720051" ignored="false" />
     <file path="$PROJECT_DIR$/../verify/1.0/build/index.js" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379382070459" ignored="false" />
     <file path="$PROJECT_DIR$/../verify/1.0/build/index-min.js" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379382070459" ignored="false" />
     <file path="$PROJECT_DIR$/../verify/1.0/build/index-min.css" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1379382070459" ignored="false" />
     <file path="/taobao.html" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1383545957157" ignored="false" />
+    <file path="$PROJECT_DIR$/1.2/build/index.js" changelist="23e2393c-7d57-4145-8f48-9bf05924b42b" time="1383729699859" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,7 +38,7 @@
       <file leaf-file-name="README.md" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="20" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
+            <state line="49" column="11" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -65,10 +66,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.js" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="index.js" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/1.2/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="31" column="42" selection-start="643" selection-end="643" vertical-scroll-proportion="-10.024272">
+            <state line="454" column="39" selection-start="15246" selection-end="15246" vertical-scroll-proportion="-5.769231">
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <marker date="1383729225000" expanded="true" signature="1212:1233" placeholder="..." />
@@ -92,6 +93,15 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="index.md" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/1.2/guide/index.md">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="49" column="48" selection-start="740" selection-end="740" vertical-scroll-proportion="0.39596274">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
     </leaf>
   </component>
   <component name="FindManager">
@@ -111,13 +121,13 @@
         <option value="$PROJECT_DIR$/1.1/demo/taobao.html" />
         <option value="$PROJECT_DIR$/1.2/build/index-min.js" />
         <option value="$PROJECT_DIR$/1.2/build/index.js" />
-        <option value="$PROJECT_DIR$/1.2/guide/index.md" />
         <option value="$PROJECT_DIR$/package.json" />
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/abc.json" />
         <option value="$PROJECT_DIR$/1.2/index.js" />
         <option value="$PROJECT_DIR$/1.1/demo/index.html" />
         <option value="$PROJECT_DIR$/1.2/demo/index.html" />
+        <option value="$PROJECT_DIR$/README.md" />
+        <option value="$PROJECT_DIR$/1.2/guide/index.md" />
       </list>
     </option>
   </component>
@@ -182,6 +192,24 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sapper" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="1.2" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="guide" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -378,20 +406,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.2/guide/index.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="26" selection-start="80" selection-end="80" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="20" selection-start="301" selection-end="301" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/package.json">
       <provider selected="true" editor-type-id="text-editor">
         <state line="2" column="17" selection-start="41" selection-end="41" vertical-scroll-proportion="-1.25">
@@ -413,17 +427,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/1.1/demo/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="36" column="35" selection-start="1093" selection-end="1124" vertical-scroll-proportion="-1.5189873">
-          <folding>
-            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/1.2/demo/index.html">
       <provider selected="true" editor-type-id="text-editor">
         <state line="52" column="27" selection-start="1649" selection-end="1649" vertical-scroll-proportion="-3.227848">
@@ -437,13 +440,38 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/1.2/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="31" column="42" selection-start="643" selection-end="643" vertical-scroll-proportion="-10.024272">
+        <state line="454" column="39" selection-start="15246" selection-end="15246" vertical-scroll-proportion="-5.769231">
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <marker date="1383729225000" expanded="true" signature="1212:1233" placeholder="..." />
             <marker date="1383729225000" expanded="true" signature="1339:1360" placeholder="..." />
             <marker date="1383729225000" expanded="true" signature="1463:1484" placeholder="..." />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.1/demo/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="35" selection-start="1093" selection-end="1124" vertical-scroll-proportion="-1.5189873">
+          <folding>
+            <element signature="n#style#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="11" selection-start="846" selection-end="846" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/1.2/guide/index.md">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="49" column="48" selection-start="740" selection-end="740" vertical-scroll-proportion="0.39596274">
+          <folding />
         </state>
       </provider>
     </entry>
